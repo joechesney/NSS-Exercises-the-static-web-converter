@@ -7,15 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form style="margin-left: 2em;" id="theForm">
         <h3>Please enter a number:</h3> 
         <input id="inputTemp" type="text" />
         <p>Select the converion you want:</p>
         <input type="radio" name="unitOf" value = "FtoC">Fahrenheit to Celsius<br>
         <input type="radio" name="unitOf" value = "CtoF">Celsius to Fahrenheit<br>
-        <button type="button" id="converter">Convert Now!</button>
+        <button type="button" id="converter">Convert Now!</button><br>
+        <button type="button" id="clear">Clear</button>
     </form>
-    <div id="result"></div>
+    <br>
+    <div style="font-size:70px; margin-left: 1em;"   id="result"></div>
     <script src="converter.js"></script>
 </body>
 </html>
